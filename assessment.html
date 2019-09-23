@@ -6,80 +6,99 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- add bootstrap cdn link and script tags here -->
+  <!-- add bootstrap cdn link here -->
 
 </head>
 
 <body>
-  <div class=""><!-- add container class -->
-    <nav class=""><!-- add navbar style-->
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
+  <nav class=""><!-- add navbar style-->
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Page 1</a>
+        <a class="nav-item nav-link" href="#">Page 2</a>
+        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <div class=""><!-- add container class -->
     <div class=""><!-- add jumbotron class -->
       <h1>Hello, World!</h1>
     </div>
     <div class=""><!-- add row class -->
-      
-      <!-- column the articles below-->
-
-      <article class="">
+      <!-- Make the divs into columns in this section below-->
+      <!-- Make sure that the columns in a row add up to twelve -->
+      <!-- For equal sized columns, divide 12 by the number of columns -->
+      <!-- You can have unequal sized columns, just have them add up to 12 -->
+      <div class=""><!-- add column class -->
         <p>The big cheese dolcelatte cheese and biscuits. Lancashire cow goat stilton pecorino paneer monterey jack
           mascarpone. Cheese and wine manchego say cheese cream cheese everyone loves blue castello caerphilly stinking
           bishop. Cheese on toast goat mozzarella rubber cheese port-salut cheesecake smelly cheese manchego. Dolcelatte
           cow.</p>
-      </article>
-      <article class="">
+      </div>
+      <div class=""><!-- add column class -->
         <p>Bocconcini fromage stilton. Cow macaroni cheese bavarian bergkase gouda monterey jack parmesan manchego
           camembert de normandie. Rubber cheese bavarian bergkase cheese and biscuits cheddar blue castello lancashire
           ricotta dolcelatte. Roquefort ricotta when the cheese comes out everybody's happy cheesy grin cheesecake
           rubber cheese cheese and biscuits.</p>
-      </article>
-      <article class="">
+      </div>
+      <div class=""><!-- add column class -->
         <p>Bocconcini rubber cheese stinking bishop. Fromage frais cheese strings macaroni cheese say cheese cheese and
           wine edam swiss halloumi. Ricotta red leicester cut the cheese cream cheese pepper jack cheddar macaroni
           cheese everyone loves. Squirty cheese dolcelatte jarlsberg monterey jack.</p>
-      </article>
+      </div>
     </div>
-
-    <!-- Style the buttons below to their respected size -->
-    <button class="">Small</button>
-    <button class="">Medium</button>
-    <button class="">Large</button>
-
-    <article>
-      <img class="" src="media/image.png"><!-- add image style -->
-    </article>
-
-    <article>
-      <table class="" style="width:100%"><!-- add table style -->
-        <tr>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
-        </tr>
-      </table>
-    </article>
+    <hr>
+    <div class=""><!-- add row class -->
+      <!-- Style the buttons below to their respected size -->
+      <div class=""><!-- add column class -->
+        <button type="button" class="">Small</button><!-- add button and button small class -->
+      </div>
+      <div class=""><!-- add column class -->
+        <button type="button" class="">Medium</button><!-- add button and button medium class -->
+      </div>
+      <div class=""><!-- add column class -->
+        <button type="button" class="">Large</button><!-- add button and button large class -->
+      </div>
+    </div>
+    <hr>
+    <div class=""><!-- add row class -->
+      <div class=""><!-- add column class -->
+        <img class="" src="media/image.png"><!-- add image style class -->
+      </div>
+    </div>
+    <hr>
+    <div class=""><!-- add row class -->
+      <div class=""><!-- add column class -->
+        <table class=""><!-- add table class(es) -->
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <!-- bonus: add your own name and age to the table! -->
+        </table>
+      </div>
+    </div>
   </div>
+
+  <!-- add bootstrap script tags here -->
+  
 </body>
 
 </html>
